@@ -1,3 +1,1 @@
-docker exec -it spark-master ./bin/spark-submit \
-	--master spark://spark-master:7077 \
-	./work/python/read-file.py
+docker exec -it spark-master ./bin/spark-submit --master spark://spark-master:7077 ./work/python/read-file.py
