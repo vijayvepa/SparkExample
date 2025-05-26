@@ -1,0 +1,41 @@
+[
+	{
+		"name": {
+			"first": "John",
+			"last": "Doe",
+			
+			"text": "Hello, world 1!"
+		},
+		"age": 10,
+		"extra": {
+			"info": "This is some extra information",
+			"timestamp": "2023-10-01T12:00:00Z"
+		}
+	},
+	{
+		"name": {
+			"first": "John",
+			"last": "Doe",
+			
+			"text": "Hello, world 1!"
+		},
+		"age": 30,
+		"extra": {
+			"info": "This is some extra information",
+			"timestamp": "2023-10-01T12:00:00Z"
+		}
+	},
+	{
+		"name": {
+			"first": "John",
+			"last": "Doe",
+			
+			"text": "Hello, world 1!"
+		},
+		"age": 25,
+		"extra": {
+			"info": "This is some extra information",
+			"timestamp": "2023-10-01T12:00:00Z"
+		}
+	}
+]

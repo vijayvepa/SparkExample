@@ -1,0 +1,3 @@
+docker exec -it spark-master ./bin/spark-submit \
+	--master spark://spark-master:7077 \
+	./work/python/simple-app.py

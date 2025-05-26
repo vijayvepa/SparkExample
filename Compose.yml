@@ -12,6 +12,7 @@ services:
       - '58080:8080'
     volumes:
       - ${PWD}/work:/opt/bitnami/spark/work
+      - ${PWD}/data:/opt/data
   spark-worker-1:
     image: docker.io/bitnami/spark:3.2.3
     container_name: spark-worker-1
@@ -26,6 +27,7 @@ services:
       - SPARK_SSL_ENABLED=no
     volumes:
       - ${PWD}/work:/opt/bitnami/spark/work
+      - ${PWD}/data:/opt/data
   spark-worker-2:
     container_name: spark-worker-2
     image: docker.io/bitnami/spark:3.2.3
@@ -40,3 +42,4 @@ services:
       - SPARK_SSL_ENABLED=no
     volumes:
       - ${PWD}/work:/opt/bitnami/spark/work
+      - ${PWD}/data:/opt/data
